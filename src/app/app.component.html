@@ -1,3 +1,10 @@
-<h1>
-  {{title}}
-</h1>
+<h1>{{title}}</h1>
+<h2>My Heroes</h2>
+<!-- /heroes 는 app.module.ts에 정의한 RouterModule의 heroes를 의미한다. -->
+<nav>
+  <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/heroes">Heroes</a>
+</nav>
+<router-outlet></router-outlet>
+
+
